@@ -1,0 +1,124 @@
+
+.Hospital_cards{
+    background-color: #ccc;
+    padding: 15px 15px 1px 15px;
+}
+.template{
+    height: 27.5rem;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Gradient overlay */
+                url('https://cdn.clinikk.com/trinity/visit-us/hero-section/visit-us-hero-small.webp');
+    background-size: cover; /* Cover the whole element */
+    background-position: center;
+    position: relative;
+}
+.pincode{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    margin-bottom: 10px;
+}
+.template_details{
+    position: absolute;
+    bottom:50px;
+    left:20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:8px;
+
+}
+.template_heading{
+    font-size: 22px;
+    font-weight: bold;
+    color:#fff;
+    position: absolute;
+    bottom: 188px;
+    left: 20px;
+    
+}
+.template_details .template_container{
+    display: flex;
+    gap:2px;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(211, 211, 211, 0.5);
+    padding: 8px 16px;
+    border-radius: 13px;
+    
+}
+.template_container span{
+    color:#fff;
+    font-weight: 500;
+}
+.hospital_img{
+    height: fit-content;
+    width: -webkit-fill-available;
+    border-radius:20px;
+    margin-bottom: 10px;
+}
+.main_container{
+    padding:20px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 18px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:10px;
+}
+.main_container .content{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.main_container .content {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;   
+}
+.main_container .content2{
+    display: flex;
+
+}
+.main_container .content3{
+    display: flex;
+    gap: 12px;
+    font-weight: bold;
+}
+.hospital_contact{
+    font-size: 20px;
+    color: darkgrey;
+    font-weight: 700;
+}
+.direction{
+    font-size: 20px;
+    color:#0d99ff;
+    text-decoration: none;
+}
+.book_Visit{
+    background-color: black;
+    color: #fff;
+    padding: 0.5em 1.5em;
+    border-radius: 33px; 
+    font-size: 1.3rem; 
+    white-space: nowrap;
+}
+.button_section{
+    display: flex;
+    justify-content: space-between;  
+    gap:15px;
+    align-items: center;
+}
+.button_background{
+    border-radius:100px;
+    background-color: lightgrey;
+    padding:10px;
+}
+.divider_line{
+    height: 10px;
+    background-color: #ccc;
+    border-radius:10px;
+}

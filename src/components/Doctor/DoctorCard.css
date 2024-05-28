@@ -1,0 +1,121 @@
+.doctorInfo{
+  display:flex;
+  gap: 15px;
+}
+.doctorInfo .doctor-designation{
+  display:flex;
+  flex-direction: column;
+  gap:8px;
+}
+.doctorInfo .doctor-designation, .specialization ,.experience{
+  margin:0;
+  font-size:18px;
+  color:lightGrey;
+
+
+}
+.doctor-image{
+  width:100px;
+  height:100px;
+  border-radius: 100%;
+}
+.doctorName{
+  font-size: 20px;
+  font-weight:600;
+  color: #0d99ff ;
+  margin-bottom:0;
+}
+
+.patient-recomend,
+.patient-recomend p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap:8px;
+}
+.patient-recomend p {
+  margin-left: 5px;
+}
+
+.rating hr {
+  margin-bottom: 10px;
+}
+
+.rating .sec1, .rating .sec2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  padding: 9px 17px;
+  color: white;
+}
+
+.rating .sec1 {
+  background-color: #28a745;
+}
+
+.rating .sec2 {
+  background-color: #563d7c;
+}
+
+.rating span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.patient-recomend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.patient-recomend p {
+  margin: 0;
+  color: gray;
+}
+.address{
+  margin-bottom: 15px;
+}
+.address .location {
+  color: black !important; 
+  font-weight: 500;
+}
+.address span{
+  font-size:20px;
+  color:lightgrey;
+  
+}
+.address .open{
+  color :#28a745;
+  font-weight: bold;
+}
+.buttonGroup{
+  display: flex;
+  gap : 10px;
+  justify-content: space-around;
+  margin:21px;
+}
+.view_profile{
+  color:navy;
+  font-weight: 500;
+  line-height: 35px;
+  font-size:16px;
+  padding: 0 20px;
+  border: 1px solid #3D7CC9;
+  border-radius:5px;
+}
+.buttonGroup .book-btn{
+  background-color: #3D7CC9;
+  border: 1px solid #3D7CC9;
+  font-size:16px;
+  padding: 0 25px;
+  color: #fff;
+  font-weight: 500;
+  border-radius:5px;
+}
